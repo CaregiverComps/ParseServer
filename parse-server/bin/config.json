@@ -1,0 +1,12 @@
+{
+"apps": [
+{
+  "databaseURI": "mongodb://admin:crazy2terms@ds019068.mlab.com:19068/caregivers",
+"serverURL":"http://localhost:1337",
+"appId":"vSfFMOf1zACuT3bTD0anRgM3JGVoGZ0p2MQ0KwWg",
+"masterKey":"PG6tfHrTO9XQsznvrKmQYkJszFjYf0R9F4bRxBvj",
+"appName":"MyApp"
+}
+]
+
+}
