@@ -1,0 +1,19 @@
+When using the mlab account, replace
+
+Parse.setApplicationId("vSfFMOf1zACuT3bTD0anRgM3JGVoGZ0p2MQ0KwWg", clientKey: "h1XSnv5RTzVHHp3jOA15VE22IHZvobhrn0Evt9Ei")
+
+with
+
+let configuration = ParseClientConfiguration {
+    $0.applicationId = "vSfFMOf1zACuT3bTD0anRgM3JGVoGZ0p2MQ0KwWg"
+    $0.clientKey = "h1XSnv5RTzVHHp3jOA15VE22IHZvobhrn0Evt9Ei"
+    $0.server = "http://localhost:1337/parse"
+}
+
+Make sure you run
+
+npm start config.json
+
+inside the parse server directory in our other repository.
+
+Note that this code will not work until we can run relational queries on Parse Server.
